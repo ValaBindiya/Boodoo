@@ -1,0 +1,291 @@
+@media screen and (max-width:575px) {
+
+    .sub-title {
+        font-size: 50px;
+    }
+
+    .coman-btn {
+        width: 70%;
+    }
+
+    #hero h1 {
+        font-size: 4rem;
+        line-height: 60px;
+    }
+
+    #about .about-imgs>.row {
+        justify-content: space-evenly !important;
+    }
+
+    #about .about-imgs h3 {
+        font-size: 3.3rem;
+    }
+    
+    .about-img img {
+        padding-right: 5rem;
+    }
+    
+    #imagin h2 {
+        font-size: 50px;
+    }
+
+    #imagin h2 {
+        margin-bottom: 2rem;
+    }
+
+    .team-img {
+        padding-left: 0;
+    }
+
+    #choose .sub-title {
+        margin-bottom: 8rem;
+    }
+
+    #apointment .main-title {
+        margin-top: 0rem;
+    }
+
+}
+
+@media screen and (min-width:575px) {
+
+    .sub-title {
+        font-size: 50px;
+    }
+
+    .coman-btn {
+        width: 70%;
+    }
+
+    #hero h1 {
+        font-size: 6rem;
+        line-height: 100px;
+    }
+
+    #about .about-imgs>.row {
+        justify-content: space-evenly !important;
+    }
+
+    #about .about-imgs h3 {
+        font-size: 3.3rem;
+    }
+
+    .about-img img {
+        padding-right: 5rem;
+    }
+
+    #imagin h2 {
+        font-size: 50px;
+    }
+
+    #imagin h2 {
+        margin-bottom: 2rem;
+    }
+
+    .team-img {
+        padding-left: 0;
+    }
+    
+    #choose .sub-title {
+        margin-bottom: 8rem;
+    }
+
+    #apointment .main-title {
+        margin-top: 0rem;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    .sub-title {
+        font-size: 60px;
+    }
+
+    .coman-btn {
+        width: 300px;
+    }
+
+    #hero h1 {
+        font-size: 8rem;
+        line-height: 120px;
+    }
+
+    #about .about-imgs h3 {
+        font-size: 3.3rem;
+    }
+    
+    .about-img img {
+        padding-right: 5rem;
+    }
+
+    #about .about-imgs>.row {
+        justify-content: space-evenly !important;
+    }
+
+    #imagin h2 {
+        font-size: 50px;
+    }
+
+    #imagin h2 {
+        margin-bottom: 3rem;
+    }
+
+    .team-img {
+        padding-left: 0;
+    }
+    
+    #choose .sub-title {
+        margin-bottom: 10rem;
+    }
+
+    #apointment .main-title {
+        margin-top: 0rem;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    .sub-title {
+        font-size: 65px;
+    }
+
+    header .navbar-collapse {
+        background: none
+     }
+
+    #hero h1 {
+        font-size: 10rem;
+        line-height: 140px;
+    }
+
+    #about .about-imgs h3 {
+        font-size: 3.4rem;
+    }
+
+    .about-img img {
+        padding-right: 8rem;
+    }
+
+    #imagin h2 {
+        font-size: 79px;
+    }
+
+    #imagin h2 {
+        margin-bottom: 5rem;
+    }
+
+    .team-img {
+        padding-left: 5.6rem;
+    }
+
+    .foot-box h5 {
+        font-size: 25px;
+    }
+
+    iframe {
+        width: 226px;
+    }
+    
+    #choose .sub-title {
+        margin-bottom: 12rem;
+    }
+
+    #apointment .main-title {
+        margin-top: 18rem;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    #about .about-imgs h3 {
+        font-size: 4.4rem;
+    }
+
+    .foot-box h5 {
+        font-size: 30px;
+    }
+
+    iframe {
+        width: 321px;
+    }
+
+    .about-img img {
+        padding-right: 10rem;
+    }
+
+    #imagin h2 {
+        font-size: 95px;
+    }
+    
+    #imagin h2 {
+        margin-bottom: 7rem;
+    }
+    
+    #choose .sub-title {
+        margin-bottom: 14rem;
+    }
+
+    #apointment .main-title {
+        margin-top: 24rem;
+    }
+    
+}
+
+@media screen and (min-width:1400px) {
+
+    .about-img img {
+        padding-right: 13rem;
+    }
+
+    #imagin h2 {
+        font-size: 110px;
+    }
+
+    #imagin h2 {
+        margin-bottom: 9rem;
+    }
+
+    #choose .sub-title {
+        margin-bottom: 17rem;
+    }
+
+    #apointment .main-title {
+        margin-top: 26rem;
+    }
+
+
+}
+
+@media screen and (min-width:1700px) {
+    .container {
+        max-width: 160rem;
+        padding: 0 1rem;
+    }
+
+    #imagin h2 {
+        font-size: 134px;
+    }
+
+    #imagin h2 {
+        margin-bottom: 11rem;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    header .navbar-collapse .nav-link {
+        border-bottom: 0.2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    header .navbar-collapse li:last-child .nav-link {
+        border-bottom: 0;
+    }
+
+    header .navbar-collapse {
+        background: linear-gradient(0deg, #000 36.84%, #C8191C 223.16%);
+        text-align: center;
+    }
+}

@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya';
+    /* background-color: black; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #C8191C;
+    --secondary-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.coman-btn {
+    display: flex;
+    width: 300px;
+    height: 63px;
+    padding: 15px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.main-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.sub-title {
+    color: var(--secondary-color);
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/************Header**************/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+.navbar-nav>li {
+    margin-right: 5rem;
+}
+
+.navbar-nav>li>a {
+    font-size: 1.8rem;
+}
+
+
+/******************************/
+
+
+/***********Hero***************/
+#hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 37.7rem;
+    background: linear-gradient(180deg, #000 36.84%, #C8191C 223.16%);
+}
+
+#hero .container {
+    position: relative;
+    z-index: 999;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/Hero-benner.png);
+    opacity: 0.1;
+    inset: 0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#hero h1 {
+    color: var(--4, #FFF);
+    text-align: center;
+    font-size: 121px;
+    font-weight: 700;
+    line-height: 160px;
+}
+
+#hero h1 span {
+    color: #C8191C;
+}
+
+
+
+
+#hero p {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5rem 0;
+    width: 70%;
+}
+
+
+/********************************/
+
+
+/************about************/
+#about {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000 16.49%, #C8191C 274.79%);
+}
+
+.about-des .main-title {
+    margin-bottom: 1.8rem;
+}
+
+#about .about-imgs > .row {
+    row-gap: 3rem;
+}
+
+#about .about-imgs h3 {
+    font-size: 5.4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    color: var(--secondary-color);
+}
+
+#about .about-data {
+    margin-top: 14.4rem;
+}
+
+.about-img img {
+    padding-right: 13rem;
+    border-right: 2px solid #FFF;
+    height: 40rem;
+}
+
+.about-img p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    padding-top: 11rem;
+    max-width: 54.1rem;
+}
+
+.about-des .coman-btn {
+    margin-top: 10rem;
+}
+
+
+/********************************/
+
+
+/************imagin*************/
+#imagin {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000 37.37%, #C8191C 231.27%);
+}
+
+#imagin > .row {
+    row-gap: 4rem;
+} 
+
+#imagin h2 {
+    font-size: 134px;
+    font-weight: 700;
+    margin-bottom: 11rem;
+    color: var(--secondary-color);
+}
+
+#imagin h2:last-child {
+    margin-bottom: 0;
+}
+
+#imagin p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 485px;
+}
+
+.team-img {
+    padding-left: 5.6rem;
+}
+
+.team-img .img img {
+    height: 410px;
+    object-fit: cover;
+}
+
+.team-data {
+    margin-top: 3rem;
+}
+
+
+/********************************/
+
+
+/************services************/
+#services {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000 16.49%, #C8191C 274.79%);
+}
+
+#services .main-title {
+    text-align: center;
+}
+
+#services .sub-title {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+#services .col-md-6:nth-child(odd) {
+    padding: 0 7.5rem 0 4.2rem;
+}
+
+#services .col-md-6:nth-child(even) {
+    padding: 0 4.2rem 0 7.5rem;
+}
+
+#services .row {
+    row-gap: 15rem;
+}
+
+.services-box {
+    border: 2px solid #FFF;
+    padding: 5rem 6rem;
+}
+
+.services-box img {
+    height: 44rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-box h5 {
+    color: var(--secondary-color);
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5rem 0 2rem;
+}
+
+.services-box p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*******************************/
+
+
+
+/************choose*************/
+#choose {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000 36.84%, #C8191C 223.16%);
+}
+
+#choose .main-title,
+#choose .sub-title {
+    text-align: center;
+}
+
+#choose .sub-title {
+    margin-bottom: 17rem;
+}
+
+#choose .row {
+    row-gap: 4rem;
+}
+
+.choose-box h5 {
+    color: var(--secondary-color);
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 3rem 0;
+}
+
+.choose-box p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*******************************/
+
+
+
+/***********horoscope***********/
+#horoscope {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000 36.84%, #C8191C 223.16%);
+}
+
+#horoscope .main-title,
+#horoscope .sub-title {
+    text-align: center;
+}
+
+#horoscope .sub-title {
+    margin-bottom: 10rem;
+}
+
+#horoscope .row-1 {
+    column-gap: 13rem;
+    margin-bottom: 10rem;
+}
+
+.sci-box h5 {
+    color: var(--secondary-color);
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sci-box p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reviews {
+    margin-top: 20rem;
+}
+
+.reviews p {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reviews h4 {
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-family: 'Alegreya' !important;
+}
+
+
+/*******************************/
+
+
+/**********apointment***********/
+#apointment {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000 36.84%, #C8191C 223.16%);
+}
+
+#apointment .main-title {
+    margin-top: 26rem;
+}
+
+.apoi-box {
+    padding-right: 12rem;
+}
+
+
+#apointment label {
+    color: var(--secondary-color);
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+#apointment input {
+    color: var(--secondary-color);
+    background-color: transparent;
+    font-family: Alegreya;
+    font-size: 24px;
+    padding: 2rem;
+    border: 2px solid #FFF;
+    font-weight: 400;
+    margin-bottom: 8rem;
+    outline: none;
+    width: 100%;
+}
+
+select {
+    color: var(--secondary-color);
+    background-color: transparent;
+    font-family: Alegreya;
+    font-size: 24px;
+    padding: 2rem;
+    border: 2px solid #FFF;
+    font-weight: 400;
+    margin-bottom: 8rem;
+    outline: none;
+    width: 100%;
+}
+
+select option {
+    background-color: #C8191C;
+
+}
+
+#apointment .coman-btn {
+    margin-bottom: 20rem;
+}
+
+/*******************************/
+
+
+/**********member-ship*********/
+#member-ship {
+    padding: 10rem 0;
+    background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000 151.34%);
+    position: relative;
+}
+
+#member-ship .container {
+    position: relative;
+    z-index: 999;
+}
+
+#member-ship::before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/member-ship.png);
+    opacity: 0.1;
+    height: 100%;
+    width: 85%;
+    background-repeat: no-repeat;
+    object-position: center center;
+    left: 28rem;
+    top: 0;
+}
+
+#member-ship p {
+    max-width: 90rem;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 2rem 0 5rem;
+}
+
+#member-ship .coman-btn {
+    margin-bottom: 10rem;
+}
+
+
+/*******************************/
+
+
+/*******membership-price*******/
+#membership-price {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000 16.49%, #C8191C 274.79%);
+}
+
+#membership-price .main-title {
+    text-align: center;
+}
+
+#membership-price .sub-title {
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+#membership-price .data {
+    display: flex;
+}
+
+.price-box {
+    padding: 6rem 7.7rem;
+    border: 2px solid #FFF;
+}
+
+.price-box h6 {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price-box p>span {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.price-box p {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin: 3rem 0;
+}
+
+.price-box img {
+    margin-bottom: 2rem;
+}
+
+.price-box span {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.price-box .coman-btn {
+    margin-top: 8rem;
+}
+
+.price-box:hover {
+    background-color: #C8191C;
+}
+
+.price-box:hover .coman-btn {
+    background-color: white;
+    color: #C8191C;
+}
+
+.STARTER-PRICE {
+    padding-right: 5rem;
+}
+
+.BEST-PRICE {
+    padding: 0 3rem;
+}
+
+.PREMIUM-PRICE {
+    padding-left: 5rem;
+}
+
+
+
+/*******************************/
+
+/***********CLient***********/
+#Client {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000 16.49%, #C8191C 274.79%);
+}
+
+#Client h3 {
+    text-align: center;
+    font-size: 131px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 10rem;
+}
+
+.mySwiper {
+    padding: 6.3rem 7rem;
+}
+
+.client-desc {
+    padding: 0 10rem;
+}
+
+.client-desc .client-data {
+    position: relative;
+}
+
+.client-desc .client-data::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(../images/coma.png);
+    background-repeat: no-repeat;
+    opacity: 999;
+    top: -4.8rem;
+    left: -3rem;
+    fill: rgba(255, 255, 255, 0.20);
+}
+
+.client-desc img {
+    height: 63rem;
+    object-fit: cover;
+}
+
+.client-desc .client-data p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 7.7rem;
+}
+
+.client-desc .client-data h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.swiper-button-prev {
+    color: var(--secondary-color);
+    padding-right: 2rem;
+}
+
+.swiper-button-next {
+    color: var(--secondary-color);
+    padding-left: 2rem;
+}
+
+
+/*******************************/
+
+
+/************blog**************/
+#blog {
+    padding-top: 13.7rem;
+    background: linear-gradient(0deg, #000 16.49%, #C8191C 274.79%);
+    padding-bottom: 20rem;
+}
+
+#blog .sub-title {
+    margin-bottom: 6rem;
+}
+
+.blog-box img {
+    padding: 1rem;
+    height: 48rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog-box h5 {
+    color: var(--secondary-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.blog-box p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+
+/*******************************/
+
+
+/************footer*************/
+footer {
+    padding-bottom: 8rem;
+    background: linear-gradient(180deg, #000 36.84%, #C8191C 223.16%);
+}
+
+footer .container {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.link {
+    margin-bottom: 8rem;
+    padding-top: 8rem;
+    row-gap: 3rem;
+}
+
+footer a {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-top: 2rem;
+}
+
+.foot-box h5 {
+    color: var(--secondary-color);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.foot-box i,
+.foot-box a,
+.foot-box p {
+    display: inline-block;
+}
+
+.foot-box i {
+    font-size: 24px;
+    padding-right: 2rem;
+}
+
+
+iframe {
+    width: 321px;
+    height: 185px;
+}
+
+.foot-box:last-child h5 {
+    margin-bottom: 2rem;
+}
+
+.copy-right {
+    margin-bottom: 4.5rem;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+
+
+/*******************************/
